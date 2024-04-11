@@ -1,0 +1,16 @@
+mcafee-off
+advanced firewall-off
+schedule scans-off
+Real-Time Scanning-off
+
+window-security-cloud delivered protection-off
+automatic sample submission-off
+tamper protection-off
+
+network connection -> wifi or ethernet (whatever is on the pc) -> properties -> protocol version 6(TCP/IpV6)-uncheck
+
+network connection -> wifi or ethernet (whatever is on the pc) -> properties -> internet protocol version 4(TCP/IpV4)-> properties -> advanced -> dns -> [use this connection's DNS suffix in DNS registration] -> checked
+
+poweshell-[administrator]-" netsh int ip set global taskoffload=disable"
+
+download cain and abel link:"https://web.archive.org/web/20160214132154/http://www.oxid.it/cain.html"
